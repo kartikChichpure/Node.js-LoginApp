@@ -11,7 +11,7 @@ const app = express();
 require('./config/passport')(passport);
 
 // DB Config
-const db = 'mongodb+srv://kartik:kartik@cluster0-tw8l8.mongodb.net/test?retryWrites=true';
+const db = 'mongodb+srv://username:pass@cluster0-tw8l8.mongodb.net/test?retryWrites=true';
 
 // Connect to MongoDB
 mongoose
